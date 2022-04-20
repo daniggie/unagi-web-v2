@@ -13,18 +13,33 @@ body{
 
 :root{
 
+    --light-black: rgba(0, 0, 0, 0.295);
+    --black: rgb(0, 0, 0);
     --gradient: linear-gradient(314.74deg, #AC00FD 20.7%, rgba(146, 34, 199, 0.51) 45.76%), 
     linear-gradient(120.02deg, rgba(255, 0, 153, 0.56) 12.96%, rgba(255, 0, 199, 0.2576) 31.59%), #1400FF;
 
 }
 
 .container{
-   margin: auto;
-   width: 75%;
    height: auto;
-   background-color: rgba(0, 0, 0, 0.295);
-   border-radius: 20px;
    padding: 25px;
+   box-sizing: border-box;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.w-75{
+    width: 75%;
+}
+
+.light{
+    background-color: var(--light-black);
+}
+
+.solid{
+    background-color: var(--black);
 }
 
 .d-flex{
@@ -32,12 +47,13 @@ body{
    justify-content: space-around
 }
 
+
 aside{
     width: 15%;
     height: auto;
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 5vh 7vh 1vh auto;
+    grid-template-rows: 7vh 7vh 5vh 1vh auto;
     justify-items: center;
 }
 
@@ -48,6 +64,13 @@ aside img{
 
 hr{
     width: 100%;
+}
+
+.line{
+    width: 100%;
+    height: 2px;
+    background: var(--gradient);
+    margin-bottom: 15px;
 }
 
 ul{
@@ -82,6 +105,7 @@ b{
 }
 
 main{
+    border-radius: 20px;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
@@ -121,6 +145,5 @@ section p{
 
 .display-video{
     height: 320px;
-    background-color: black;
 }
 

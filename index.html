@@ -9,8 +9,6 @@
     <link rel="shortcut icon" href="assets/icone.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
-<script src="/script.js"></script>
-
 <body>
 
     <div class="logo">
@@ -66,10 +64,12 @@
 
                 <div class="grid-2">
                     <div>
-                        <b>Resumo do vídeo</b>
-                        <p>Boa noite, sou Daniela, formo a equipe do PAC da primeira fase de engenharia de software com
+                        <b>Resumo do vídeo</b><br/><br/>
+                        <span id="pontos">Boa noite, sou Daniela, formo a equipe do PAC da primeira fase de engenharia de software com
                             a Roberta e o Tailon e vou dar início a primeira apresentação sobre o motivo de usar a
-                            robótica dentro da TI. Antes de tudo, estarei explicando o que é a robótica e apresentando
+                            robótica dentro da TI. Antes de tudo, estarei explicando o que é a robótica...</span><span id="hideText"><p>Boa noite, sou Daniela, formo a equipe do PAC da primeira fase de engenharia de software com
+                                a Roberta e o Tailon e vou dar início a primeira apresentação sobre o motivo de usar a
+                                robótica dentro da TI. Antes de tudo, estarei explicando o que é a robótica e apresentando
                             suas relações. De um modo simples, a robótica é a automação de um elemento, ou seja,
                             produzir um produto que consiga se locomover ou ter quaisquer movimentos mecânicos
                             programados para serem automáticos. Dando um exemplo bem conhecido, o braço mecânico, que é
@@ -83,11 +83,24 @@
                             resultado final. A indústria 4.0 está completamente relacionada à robótica, pois é neste
                             ambiente que nasce a robótica. Dada a necessidade de um processo de produção industrial ter
                             bastante ciclos repetitivos, viram ali a oportunidade de automação. E assim, evoluiu-se para
-                            robótica.</p>
+                            robótica.<br/><br/>
 
-                        <p>(Parte do Tailon)</p>
+                        Olá, meu nome é Tailon e irei falar sobre a evolução da robótica.
+                            A utilização dos robôs deu início na indústria com a automatização de processos repetitivos
+                            retirando assim e processo manual e reduzindo o desgaste humano prevenindo diversas doenças
+                            pelo trabalho repetitivo, mas ainda mantendo o controle humano das máquinas.
+                            Para remover grande parte do controle humano foi desenvolvido a IA (Inteligência artificial)
+                            uma forma em que o robô poderá realizar escolhas antes mesmo de agir sem a necessidade de
+                            um controle humano sendo assim a primeira IA.
+                            Se trata de robôs com inteligência artificial, com capacidades de fazer funções humanas,
+                            como mexer um braço, visualizar objetos e identificar o espaço ao seu redor.
+                            O Cog se trata de um robô humanoide projetado pelo grupo de Rodney Brooks no MIT,
+                            como uma plataforma para estudar a cognição robótica. ele possui a capacidade de 
+                            rastrear rostos agarrar objetos ou brincar com um Slinky que se trata de um brinquedo
+                            de mola sendo assim um dos maiores avanços da robótica até hoje.
+                            <br/><br/>
 
-                        <p>Agora, tendo a ideia da robótica em mente, explicado anteriormente, vamos seguir então para
+                        Agora, tendo a ideia da robótica em mente, explicado anteriormente, vamos seguir então para
                             a explicação sobre o que é a TI e o que se trata dessa sigla que tanto vemos e ouvimos
                             falar. A área da TI, abreviação de tecnologia da informação, é uma área bastante abrangente.
                             Hoje, podemos dizer que todo o meio tecnológico e seus estudos e teorias estão relacionados
@@ -105,9 +118,9 @@
                             programação e sistemas operacionais usados e desenvolvidos, o hardware onde se encaixa a
                             parte física como: computadores, circuitos e máquinas. Este conceito também foi fundamental
                             para a revolução industrial, já que com ele tivemos a evolução de tecnologias em processos
-                            industriais. O que foi implantado e evoluindo ainda mais dentro da indústria.</p>
+                            industriais. O que foi implantado e evoluindo ainda mais dentro da indústria.<br/><br/>
 
-                        <p>Olá, me chamo Roberta, agora iremos aprender um pouco sobre toda a história e evolução da
+                        Olá, me chamo Roberta, agora iremos aprender um pouco sobre toda a história e evolução da
                             internet, conhecendo todos os períodos e todas as tecnologias encontradas durante os mesmos.
                             Segundo Peter G. W. Kenn, autor do livro Guia Gerencial para a tecnologia da informação,
                             toda a evolução do TI pode ser dividida em quatro períodos. Durante o primeiro período todo
@@ -140,9 +153,9 @@
                             outras. Obviamente existem expectativas de avanços tecnológicos maiores para o futuro, são
                             elas: eliminação da necessidade de cabos, melhoramento dos dispositivos pessoais,
                             residências inteligentes, tecnologia veicular, robôs altamente avançados, criptomoedas,
-                            entre outros.</p>
+                            entre outros.<br/><br/>
 
-                        <p>Tanto o TI como a robótica foram criadas para contribuir nas empresas e em processos
+                        Tanto o TI como a robótica foram criadas para contribuir nas empresas e em processos
                             industriais, para assim aperfeiçoar a qualidade de vida e trabalho de todos os indivíduos
                             envolvidos, o que pode ser notado até mesmo hoje em dia. Mas então por que robótica na TI?
                             Quais são os motivos de se introduzir robótica na ti? Começando pelo mais conhecido, que
@@ -160,8 +173,9 @@
                             para o melhor conforto do cidadão; tecnologia exploratória, usados para pesquisas e
                             descobrimento de áreas inalcançáveis para um ser humano. Assim como são desenvolvidas muitas
                             tecnologias novas acaba abrindo caminho para geração de novos profissionais focados a essas
-                            novas tecnologias e as que podem ser criadas ainda.</p>
+                            novas tecnologias e as que podem ser criadas ainda.</p></span>
 
+                        <p onclick="mostrarMais()" id="btnMostrarMais" style="cursor: pointer">Mostrar Mais</p>
                     </div>
                     <div>
                         <b>Ferramentas utilizadas</b>
@@ -191,5 +205,5 @@
 
     </div>
 </body>
-
+<script type="text/javascript" src="script.js"></script>
 </html>

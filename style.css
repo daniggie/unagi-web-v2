@@ -14,12 +14,14 @@ body{
 }
 
 :root{
-
     --light-black: rgba(0, 0, 0, 0.295);
     --black: rgb(0, 0, 0);
     --gradient: linear-gradient(314.74deg, #AC00FD 20.7%, rgba(146, 34, 199, 0.51) 45.76%), 
     linear-gradient(120.02deg, rgba(255, 0, 153, 0.56) 12.96%, rgba(255, 0, 199, 0.2576) 31.59%), #1400FF;
+}
 
+span{
+    font-size: smaller ;
 }
 
 .container{
@@ -30,6 +32,10 @@ body{
 
 .w-100{
     width: 100%;
+}
+
+#hideText{
+    display: none;
 }
 
 .w-75{
@@ -65,10 +71,10 @@ body{
 
 aside{
     width: 12%;
-    height: auto;
+    height: 900px;
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 3% 1% auto;
+    grid-template-rows: 5% 1% auto;
     justify-items: center;
 }
 
@@ -117,7 +123,7 @@ li:hover p{
 }
 
 li:hover{
-    height: 20vh;
+    height: 25%;
 }
 
 b{

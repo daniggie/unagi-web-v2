@@ -7,10 +7,10 @@ function mostrarMais(){
     if(pontos.style.display === "none"){
         pontos.style.display="block";
         mais.style.display="none";
-        btnLeiaMais.innerHTML="Mostrar Mais";
+        btnLeiaMais.innerHTML="Mostrar mais";
     }else{
         pontos.style.display="none";
         mais.style.display="block";
-        btnLeiaMais.innerHTML="Mostrar Menos";
+        btnLeiaMais.innerHTML="Mostrar menos";
     }
 }
